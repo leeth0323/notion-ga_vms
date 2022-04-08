@@ -39,10 +39,7 @@ const getPayload = req => ({
   t: "pageview",
   dh: req.query.host,
   dp: req.query.path,
-  dt: req.query.title,
-  cm: req.query.medium,
-  cn: req.query.campaignName,
-  cs: req.query.source
+  dt: req.query.title
 });
 
 const exit = res =>
